@@ -9,15 +9,25 @@
   <style>
     body {
       margin: 0;
-      background-color: #F9F7F2;
+      background-color: #F9F7F2; /* Ivory white */
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
     }
-    img {
-      max-width: 40%;
+
+    object {
+      width: 60%;
       height: auto;
+    }
+
+    path {
+      transition: all 0.3s ease;
+      filter: brightness(1);
+    }
+
+    path:hover {
+      filter: brightness(1.5);
     }
   </style>
 </head>
